@@ -1,0 +1,10 @@
+basic idea:
+- each entry has a unique identifier
+- keep track of current entries as well as completed entries
+- can rank items by priority: low, med, hi. default priority is med
+- can mark entries as completed, and also can re-add entries by ID
+- store completed entries so they can be reviews
+- list will be stored as a text file in user's home repository
+- possibility of setting list path so it can be stored elsewhere if user wants to make a git repo of it or something
+- unique identifier can be a 4 char hex number. will give 65000 entries before it overlaps. more than 4 starts to get awkward for the user to work with
+

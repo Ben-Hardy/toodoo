@@ -6,5 +6,6 @@ basic idea:
 - store completed entries so they can be reviews
 - list will be stored as a text file in user's home repository
 - possibility of setting list path so it can be stored elsewhere if user wants to make a git repo of it or something
-- unique identifier can be a 4 char hex number. will give 65000 entries before it overlaps. more than 4 starts to get awkward for the user to work with
-
+- unique identifier can be a 4 char (alphanumeric) number. will give ~1.6 million unique entries before it overlaps. 
+  more than 4 starts to get awkward for the user to work with
+- add a REPL for working with the list in a more continuous manner rather than atomically

@@ -8,7 +8,7 @@ usage:
 - initialize list: `toodoo init` 
 - list all current incomplete entries:`toodoo list`
 - list all high priority entries: `toodoo list hi`
-- list all completed entries: `toodoo list completed`
+- list all completed entries: `toodoo list complete`
 - add an entry: `toodoo add "entry text here"`
 - add an entry with a specific priority (options are low, med, hi): `toodoo add -hi "entry text here"`
 - mark an entry as complete: `toodoo done [entryID]`
